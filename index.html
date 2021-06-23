@@ -1,0 +1,472 @@
+<html>
+
+<head>
+    <title>Aster CMI Hospital</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            var i = document.getElementById('old');
+            var d = document.getElementById('new');
+            var d1 = document.getElementById('new1');
+            var d2 = document.getElementById('new2');
+            d.innerHTML += i.innerHTML;
+            d1.innerHTML += i.innerHTML;
+            d2.innerHTML += i.innerHTML;
+        });
+    </script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            var t = document.getElementById('Testimonial');
+            var s = document.getElementById('box1');
+            var s1 = document.getElementById('box2');
+            s.innerHTML += t.innerHTML;
+            s1.innerHTML += t.innerHTML;
+        });
+    </script>
+</head>
+
+<body>
+    <div class="body">
+
+        <div role="main" class="main">
+            <div style="background-image: url('img/Banner_mage.png'); background-repeat: no-repeat;" class="img-fluid mb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 py-5 mt-3">
+                            <img src="img/Aster_logo_white.png" alt="" class="img-fluid mb-5">
+                            <h3 class="adult-paediatric-b">ADULT &amp; PAEDIATRIC BONE MARROW TRANSPLANT PROGRAMME</h3>
+                            <p class="haematology-oncolo">Haematology | Oncology | Immunology</p>
+                            <button class="btn rectangle mb-4">Book An Appointment</button>
+                        </div>
+                        <div class="col-lg-4 py-4">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <form action="" method="POST">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5 class="font weight-bold mb-5">Enquire Now</h5>
+                                            </div>
+                                            <div class="col-12">
+                                                <input type="text" placeholder="Name" class="rectangle-text">
+                                            </div>
+                                            <div class="col-12">
+                                                <input type="email" placeholder="Email ID" class="rectangle-text">
+                                            </div>
+                                            <div class="col-12">
+                                                <input type="number" placeholder="Phone Number" class="rectangle-text">
+                                            </div>
+                                            <div class="col-12">
+                                                <textarea placeholder="Your Message"
+                                                    class="rectangle-textarea"></textarea>
+                                            </div>
+                                            <div class="col-12 mt-3">
+                                                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                                            </div>
+                                            <div class="col-12 mt-3">
+                                                <button class="btn rectangle">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-lg-5">
+                        <img src="img/bone-marrow.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 mt-4">
+                        <div class="rectangle-gradient p-4 mb-5">
+                            <p class="font-weight-bold text-light">
+                                Bone Marrow Transplant (BMT) better known as haematopoietic stem cell transplant(HSCT)
+                                as bone marrow cells are transplanted
+                            </p>
+                        </div>
+                        <p class="pl-2">
+                            Replacement of diseased or defective marrow with marrow from a healthy donor
+                        </p>
+                        <hr>
+                        <p class="pl-2">
+                            Medicines and in certain situations radiotherapy as well is given to get rid of diseased
+                            marrow and bone marrow cells from healthy donor is given to replace it.
+                        </p>
+                        <hr>
+                        <p class="pl-2">
+                            IN autologous bone marrow transplant, high dose chemotherapy is given to kill cancer cells
+                            and child own marrow cells are given back
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h3 class="font-weight-bold py-4" style="color: #22B78E;">Doctors</h3>
+                    </div>
+                    <div class="col-6 text-center">
+                        <div class="bg-color-default card" style="border: 0px;">
+                            <div class="card-body">
+                                <h4 class="font-weight-bold mb-5" style="color: #22B78E;">Pediatric BMT</h4>
+                                <div id="old" class="mb-5">
+                                    <img src="img/vijay-aggarwal.png" style="border-radius: 5%;" class="mb-3">
+                                    <h4 class="font-weight-bold" style="color: #1D5AA6;">Dr. Vijay Agarwal</h4>
+                                    <p style="color: #1D5AA6;" class="mb-0">MD. MRCP. PhD.CCT</p>
+                                    <p style="color: #1D5AA6;">Lead & Sr. Consultant - Medical Oncology & Haematology
+                                    </p>
+                                    <hr class="line-hr">
+                                    <p>Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of
+                                        experience in Oncology. Dr.
+                                        Agarwal
+                                        has been practising Medical Oncology since 2004.</p>
+                                    <button class="btn btn-gradient">Know More</button>
+                                </div>
+                                <div id="new">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 text-center">
+                        <div class="bg-color-default card" style="border: 0px;">
+                            <div class="card-body">
+                                <h4 class="font-weight-bold mb-5" style="color: #22B78E;">Adult BMT</h4>
+                                <div id="new1" class="mb-5">
+                                </div>
+                                <div id="new2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-center py-5">
+                    <div class="col-12">
+                        <h3 class="font-weight-bold py-4" style="color: #22B78E;">What are the types of Bone Marrow
+                            Transplant</h3>
+                        <ul class="text-1">
+                            <li>
+                                <p>Autologous Bone Marrow Transplant - Marrow cells are collected from the patient’s own
+                                    body and transfused back after high dose chemotherapy. </p>
+                            </li>
+                            <li>
+                                <p>Allogenic Bone Marrow Transplant (Matched Sibling Donor) – Replacement of diseased or
+                                    defective marrow with marrow from a genetically (HLA) matched sibling donor. </p>
+                            </li>
+                            <li>
+                                <p>Allogenic Bone Marrow Transplant (Matched Unrelated Donor) – Replacement of diseased
+                                    or defective marrow with marrow from a genetically (HLA) matched donor obtained from
+                                    bone marrow registries in India and abroad.</p>
+                            </li>
+                            <li>
+                                <p>Haplo-Identical Bone Marrow Transplant - Replacement of diseased or defective marrow
+                                    with marrow from the parent.</p>
+                            </li>
+                            <li>
+                                <p>Umbilical cord Bone Marrow Transplant - Replacement of diseased or defective marrow
+                                    with marrow from a genetically (HLA) matched umbilical cord donor obtained from
+                                    umbilical cord registries in India and abroad.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h3 class="font-weight-bold py-4" style="color: #22B78E;">The warning signs of Immune deficiency
+                        </h3>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency1.png" class="mb-3" alt="">
+                                <p>Failure to thrive – not gaining weight and height as per the age norms</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency2.png" class="my-3" alt="">
+                                <p class="mb-5">Infections warranting multiple hospitalizations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency3.png" class="mb-3" alt="">
+                                <p class="mb-5">Requirement of intravenous antibiotics to clear infections</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency4.png" class="my-3" alt="">
+                                <p class="mb-5">2 or more episodes of pneumonia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency5.png" class="mb-3" alt="">
+                                <p>Family history of death of children at young age due to immune deficiency</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency6.png" class="mb-3" alt="">
+                                <p class="mb-4">Repeated episodes of diarrhea</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency7.png" class="mb-3" alt="">
+                                <p class="mb-4">2 or more episodes of sinus infections within a year</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency8.png" class="my-3" alt="">
+                                <p class="mb-4">2 or more episodes of ear discharge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency9.png" class="mb-3" alt="">
+                                <p>Repeated skin infections</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <img src="img/deficiency10.png" class="mb-3" alt="">
+                                <p>Repeated abscess formation (liver abscess, brain abscess)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-5">
+                    <div class="col-lg-12 mb-4 mb-lg-0">
+
+                        <div class="accordion" id="accordion1">
+                            <div class="">
+                                <div class="" id="collapse1HeadingOne">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle text-decoration-none" data-toggle="collapse"
+                                            href="#collapse1One" aria-expanded="true" aria-controls="collapse1One">
+                                            What are the conditions that requireBone Marrow Transplant?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <hr>
+                                <div id="collapse1One" class="collapse show" aria-labelledby="collapse1HeadingOne">
+                                    <div class="card-body">
+                                        <ul class="list-tick">
+                                            <li>
+                                                BMT is the treatment of choice for blood disorders like Thalassemia,
+                                                Sickle Cell anemia, bone marrow failure syndromes like Aplastic anemia,
+                                                serious immune deficiencies and certain genetic metabolic disorders.
+                                            </li>
+                                            <li>
+                                                It is also used to treat high risk cancers like some cases of Acute
+                                                Lymphoblastic Leukemia, Acute Myeloid Leukemia, Multiple Myeloma and
+                                                solid tumours like Neuroblastoma, Ewings Sarcoma and certain relapsed
+                                                cancers like Lymphomas.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="" id="collapse1HeadingTwo">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle text-decoration-none" data-toggle="collapse"
+                                            href="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
+                                            Which are the hematological diseases that may benefit from bone marrow
+                                            transplants?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <hr>
+                                <div id="collapse1Two" class="collapse" aria-labelledby="collapse1HeadingTwo">
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="" id="collapse1HeadingThree">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle text-decoration-none" data-toggle="collapse"
+                                            href="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
+                                            Which are the Cancers that may benefit from bone marrow transplants?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <hr>
+                                <div id="collapse1Three" class="collapse" aria-labelledby="collapse1HeadingThree">
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="" id="collapse1HeadingFour">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle text-decoration-none" data-toggle="collapse"
+                                            href="#collapse1Four" aria-expanded="true" aria-controls="collapse1Four">
+                                            Do bone marrow failure syndromes require BMT?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <hr>
+                                <div id="collapse1Four" class="collapse" aria-labelledby="collapse1HeadingFour">
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="" id="collapse1HeadingFive">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle text-decoration-none" data-toggle="collapse"
+                                            href="#collapse1Five" aria-expanded="true" aria-controls="collapse1Five">
+                                            What are Primary Immune Deficiency diseases ?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <hr>
+                                <div id="collapse1Five" class="collapse" aria-labelledby="collapse1HeadingFive">
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="" id="collapse1HeadingSix">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle text-decoration-none" data-toggle="collapse"
+                                            href="#collapse1Six" aria-expanded="true" aria-controls="collapse1Six">
+                                            Which are the immune deficiencies that warrant BMT?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <hr>
+                                <div id="collapse1Six" class="collapse" aria-labelledby="collapse1HeadingSix">
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="" id="collapse1HeadingSeven">
+                                    <h4 class="card-title m-0">
+                                        <a class="accordion-toggle text-decoration-none" data-toggle="collapse"
+                                            href="#collapse1Seven" aria-expanded="true" aria-controls="collapse1Seven">
+                                            What makes transplants at Aster CMI unique?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <hr>
+                                <div id="collapse1Seven" class="collapse" aria-labelledby="collapse1HeadingSeven">
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5 justify-content-start">
+                    <div class="col-12">
+                        <h3 class="font-weight-bold py-4" style="color: #22B78E;">Testimonials</h3>
+                    </div>
+                    <div class="col-lg-5 col-sm-6" id="Testimonial">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <img src="img/john-doe.png" style="float: left;">
+                                        <h5 class="font-weight-bold mt-2 mb-1">John Doe</h5>
+                                        <p class="ml-3">Software Engineer</p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <img src="img/testimonial.png">
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-12">
+                                        <p>
+                                            <em>It is a long established fact that a reader will be distracted by the
+                                                readable content of a page when looking at its layout.</em>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-6" id="box1">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="bg-dark p-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <a href="#"><img src="img/icon-fb.png"> </a>
+                        <a href="#"><img src="img/icon-insta.png"> </a>
+                        <a href="#"><img src="img/icon-yt.png"> </a>
+                        <a href="#"><img src="img/icon-tweet.png"> </a>
+                        <a href="#"><img src="img/icon-ln.png"> </a>
+                    </div>
+                </div>
+                <hr style="color: #FFFFFF;">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="copy">
+                            <p class="text-light">Aster CMI. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

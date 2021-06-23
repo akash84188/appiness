@@ -1,0 +1,80 @@
+.adult-paediatric-b {
+    color: #FFFFFF;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    width: auto;
+    text-align: left;
+  }
+
+  .haematology-oncolo {
+    color: #FFFFFF;
+    font-size: 25px;
+    letter-spacing: 3.59px;
+    line-height: 34px;
+    width: auto;
+    text-align: left;
+  }
+
+  .rectangle {
+    background-color: #DD5A6A;
+    border-radius: 3.2px;
+    width: auto;
+    color: #FFFFFF;
+    padding: 10px;
+  }
+
+  .rectangle-text {
+    border: 0.87px solid #D0D0D0;
+    width: 100%;
+    height: 35px;
+    padding: 15px;
+    margin-bottom: 4%;
+  }
+
+  .rectangle-textarea {
+    border: 0.87px solid #D0D0D0;
+    width: 100%;
+    height: 55px;
+    padding: 15px 0 0 15px;
+  }
+
+  .rectangle-gradient {
+    background: rgb(46,196,184);
+    background: linear-gradient(90deg, rgba(46,196,184,1) 0%, rgba(96,120,234,1) 65%);
+    border-radius: 4px;
+    width: 586px;
+    height: 95px;
+  }
+
+  .bg-color-default{
+    background-color: #F9F9FF;
+  }
+
+  .btn-gradient{
+    background: rgb(23,234,217);
+    background: linear-gradient(90deg, rgba(23,234,217,1) 0%, rgba(96,120,234,1) 57%);
+    color: white;
+  }
+
+  .line-hr {
+    border: 1px solid #22B78E;
+    width: 37px;
+    height: 1px;
+  }
+
+  .image{
+      background-image: url(../img/vijay-aggarwal.png);
+  }
+
+  ul {
+    list-style-image: url('../img/hospital.png');
+  }
+
+  ul.list-tick {
+    list-style-image: url('../img/double-tick-indicator.png');
+  }
+
+  a{
+    color: #1D5AA6;
+  }
